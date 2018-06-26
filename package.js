@@ -16,9 +16,4 @@ Package.onUse(function(api) {
   // api.mainModule("vulcan-resources-manager.js");
   api.mainModule("lib/server/main.js", "server");
   api.mainModule("lib/client/main.js", "client");
-
-  api.addAssets(
-    ["lib/assets/schemaorg-vulcanized.jsonld"],
-    ["client", "server"]
-  );
 });
